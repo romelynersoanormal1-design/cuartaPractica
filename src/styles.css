@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 85vh;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 55vh;
+  }
+}
