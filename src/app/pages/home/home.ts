@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,3 +9,13 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   
 }
+=======
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
+})
+export class HomeComponent {}
+>>>>>>> 1dce6fb (Subiendo todos los archivos)
